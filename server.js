@@ -26,6 +26,8 @@ app.get('/users/:id',function(req,res){
 	})
 })
 
+
+
 app.post('/login',function(req,res){
 	// Typically passwords are encrypted using something like bcrypt before sending to database
 	const username=req.body.username;
